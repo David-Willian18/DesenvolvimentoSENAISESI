@@ -1,0 +1,71 @@
+#menuPc{
+    display: none;
+}
+
+#logo{
+    margin: 40px 0px;
+}
+
+#menuMobile{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(184, 1, 50);
+}
+
+#btnMenu{
+    margin: 30px;
+    background-color: transparent;
+    display: flex;
+    border: none;
+}
+
+#btnMenu img{
+    width: 50px;
+}
+
+#menuMobile nav, a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.blocos{
+    display: flex;
+    flex-direction: column;
+}
+
+.blocos img{
+    width: 90%;
+}
+
+.blocos div{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid ;
+    gap: 30px;
+    height: 640px;
+}
+
+.blocos a{
+    width: 150px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ff0d62;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#Lorem {
+    width: 750px;
+}

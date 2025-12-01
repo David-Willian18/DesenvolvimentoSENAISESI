@@ -1,0 +1,33 @@
+.imagemArea{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+}
+
+.areaEspecifica{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    width: 500px;    
+    box-shadow: 10px 10px 10px rgba(214, 214, 214, 0.541);
+    color: black;
+}
+
+#areas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#programacao{
+    background-image: url(../images/prog.jpg);
+}
+
+#mecanico{
+    background-image: url(../images/aw.jpg);
+}

@@ -1,0 +1,176 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    color: white;
+}
+
+nav h1{
+    color: white;
+}
+
+#direita {
+    display: flex;
+    gap: 30px;
+}
+
+#direita a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+#destaque{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+#destaque h2{
+    display: flex;
+    justify-content: center;
+}
+
+#destaque h1{
+    display: flex;
+    margin: 10px 0px;
+    width: 800px;
+    height: 4px;
+    background-color: red;
+}
+
+.eliza{
+    width: 800px;
+    height: 1240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 9px;
+    border: 2px solid rgba(20, 20, 20, 0.381);
+}
+
+#titulo{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#foto1 img{
+    width: 95%;
+    display: flex;
+    margin: 0px 20px;
+}
+
+#descricao{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    width: 600px;
+}
+
+#botao a{
+    padding: 10px;    
+    border-radius: 9px;
+    background-color: #ff0d62;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.artes {
+    width: 1300px;
+    display: flex;
+    margin: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artes h2{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.artes h1{
+    display: flex;
+    width: 800px;
+    height: 4px;
+    background-color: red;
+}
+
+.blocos{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#foto3, #foto4{
+    width: 36%;
+}
+.blocos img{
+    width: 80%;
+}
+
+.blocos div{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid ;
+    gap: 30px;
+    height: 400px;
+}
+
+.blocos a{
+    width: 150px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px;
+    background-color: #ff0d62;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+footer{
+    padding: 30px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+}
+
+#btnMenu{
+    display: none;
+}
+
+#menuMobile{
+    display: none;
+}
+
+#terraco{
+    margin: 7px;
+    font-size: 22px ;
+}

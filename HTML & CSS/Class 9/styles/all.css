@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --corPrimaria: rgb(39, 39, 39);
+    --branco: rgb(230, 230, 230);
+    --preto: rgb(35, 35, 35);
+    --orange: rgb(255, 131, 48);
+    --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: var(--corPrimaria) ;
+}
+header{
+    width: 100%;
+    height: 90px;
+    padding: 40px 0px;
+    background-color: var(--orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoImg{
+    width: 120px;
+    display: flex;
+    margin: 10px;
+}
+
+#logo h1{
+    color: white;
+}
+
+
+
+header a{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: x-large;
+}
+
+nav, #logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home {
+    width: 90%;
+    height: 1200px;
+    border-radius: 10px;
+    margin: 80px;
+    padding: 20px;
+    background-color: rgba(215, 215, 215, 0.964);
+    box-shadow: 15px 15px 15px rgba(227, 11, 255, 0.447);
+    background-image: url(../img/watch\ Dogs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#logoImg {
+    transform: rotate(100deg);
+}
+
+#titulo{
+    padding: 20px;
+    font-size: 60px;
+    font-family: var(--font);
+    color: var(--branco);
+    display: flex;
+    margin: 500px 0px;
+}
+
+.direito{
+    margin-right: 60px;
+    gap: 20px;
+}
+
+.paginaAtual{
+    background-color: var(--branco);
+    padding: 3px;
+    color: rgb(134, 6, 255);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#biblioteca{
+    display: flex;
+    flex-direction: row;
+}
+#listaCategorias{
+    width: 30%;
+}
+
+#listaGames tr,#listaGames table{
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: orange;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#listaGames img{
+    width: 100px;
+}
+
+#listaGames{
+    width: 70%;
+}
+
+
+
+

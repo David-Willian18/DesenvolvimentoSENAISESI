@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #cccccc;
+}
+header{
+    width:100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: end;
+    background-color: #cccccc;
+
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+    margin: 0px 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#banner, #artigos{
+    width: 100%;
+    display: flex;
+}
+
+#bannerEsquerdo, #agenda{
+    width: 30%;
+}
+
+#bannerDireito, #servicos{
+    width: 70%;
+}
+
+#subtitulo{
+    font-size: 10px;
+    background-color: #d8d8d8;
+}
+
+#artigos h1{
+    background-color: #000000;
+    color: #ffffffff;
+}
+
+#artigos h4, #artigos p{
+
+margin: 15px;
+}
+
+.squad {
+    width: 250px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #000000;
+    color: white;
+}

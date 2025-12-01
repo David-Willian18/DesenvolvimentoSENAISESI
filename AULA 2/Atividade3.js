@@ -1,0 +1,31 @@
+alert("Olá Victor Rohod. Vamos fazer um teste?")
+alert("Você terá que digitar 10 números, da sua prefência")
+alert("Logo após, será realizado a soma de todos eles")
+alert("Preparado?")
+
+var soma1 = Number(prompt("Digite um número"))
+ var soma2 = Number(prompt("Digite um número"))
+  var soma3 = Number(prompt("Digite um número"))
+   var soma4 = Number(prompt("Digite um número"))
+    var soma5 = Number(prompt("Digite um número"))
+    var soma6 = Number(prompt("Digite um número"))
+   var soma7 = Number(prompt("Digite um número"))
+  var soma8 = Number(prompt("Digite um número"))
+ var soma9 = Number(prompt("Digite um número"))
+var soma10 = Number(prompt("Digite um número"))
+
+alert(`A soma dos números é: ${soma1 + soma2 + soma3 + soma4 + soma5 + soma6 + soma7 + soma8 + soma9 + soma10}`)
+
+     console.log(`Valor1: ${soma1}`)
+    console.log(`Valor2: ${soma2}`)
+   console.log(`Valor3: ${soma3}`)
+  console.log(`Valor4: ${soma4}`)
+ console.log(`Valor5: ${soma5}`)
+console.log(`Valor6: ${soma6}`)
+ console.log(`Valor7: ${soma7}`)
+  console.log(`Valor8: ${soma8}`)
+   console.log(`Valor9: ${soma9}`)
+    console.log(`Valor10: ${soma10}`)
+     console.log(`A soma dos números é: ${soma1 + soma2 + soma3 + soma4 + soma5 + soma6 + soma7 + soma8 + soma9 + soma10}`)
+
+

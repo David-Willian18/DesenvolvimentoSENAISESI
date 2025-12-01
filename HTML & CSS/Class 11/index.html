@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" href="styles/@media.css" media="screen and (max-width:900px)">
+    <title>ArteMuseum</title>
+</head>
+<body>
+    <header>
+        <div id="logo"><h1 >ArtMuseum</h1></div>
+        
+        <button id="btnMenu" onclick="menu()" type="button">
+            <img src="img/menubranco.svg" alt="">
+        </button>    
+        <nav id="menuPc">    
+            <div id="direita">
+                <a href="#">Home</a>
+                <a href="#">Galeria</a>
+                <a href="#">Contato</a>
+            </div>
+        </nav>
+    </header>
+    <nav id="menuMobile">    
+            <div id="direita">
+                <a href="#">Home</a>
+                <a href="#">Galeria</a>
+                <a href="#">Contato</a>
+            </div>
+        </nav>
+    <main>
+        <div id="destaque">
+            <h2>Destaques da semana</h2>
+            <h1></h1>
+        </div>
+        <section class="eliza">
+            <div id="titulo">Elizabeth</div>
+            <div id="foto1">
+                <img src="img/elizabeth.jpg" alt="foto da eleizabeth">
+            </div>
+            <div id="descricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa reprehenderit nemo tempore iste praesentium eius quae voluptatum laboriosam, adipisci quidem aspernatur blanditiis dolor nobis reiciendis voluptas accusantium beatae suscipit aliquam?</div>
+            <div id="botao">
+                <a href="#">Ver Sobre</a>
+            </div>
+        </section>
+        
+        <section class="artes">
+            <p id="Lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatibus ex modi, est eius repudiandae amet voluptatem! Similique incidunt itaque, ex velit iure neque quam id molestias autem, rerum facere! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore expedita reiciendis, eaque laudantium quos perspiciatis sint eum eligendi ad recusandae sapiente possimus vero odio repudiandae quam deserunt. Labore, dolores adipisci!
+            </p>
+            <h2>Artes</h2>
+            <h1></h1>
+            <section class="blocos">
+                <div id="b1">
+                    <h2>Noite Estrelada</h2>
+                    <img id="foto2" src="img/noite.webp" alt="art 1">
+                    <p>van Gogh, Vicent. Tinta a óleo, 1889</p>
+                    <a id="botao2" href="#">Ver Sobre</a>
+                </div>
+                <div id="b2">
+                    <h2>Os Girassóis</h2>
+                    <img id="foto3" src="img/girassois.webp" alt="art2">
+                    <p>van Gogh, Vicent. Tinta a óleo. 1888 </p>
+                    <a id="botao3" href="#">Ver Sobre</a>
+                </div>
+                <div id="b3">
+                    <h2 id="terraco">Terraço do Café na Praça do Fórum</h2>
+                    <img id="foto4" src="img/terraço.jpg" alt="art3">
+                    <p>van Gogh, Vicent. Pintura a óleo. 1888</p>
+                    <a id="botao4" href="#">Ver Sobre</a>
+                </div>
+            </section>
+        </section>
+         
+    </main>
+
+    <footer>
+        <h3>Art Museum © 2025 </h3>
+    </footer>
+    <script>
+        function menu(){
+            if(menuMobile.style.display == "flex"){
+                menuMobile.style.display = "none"
+            } else{
+                menuMobile.style.display = "flex"
+            }
+        }
+    </script>
+</body>
+</html>

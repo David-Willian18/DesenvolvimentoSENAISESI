@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/all.css">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+</head>
+<body>
+    <main>
+        <div id="bannerCadastro"></div>
+        <div id="formularioCadastro">
+                <a href="../index.html"> <<<-Voltar </a>
+            <form method="get" action="#">
+            <div class="inputLabel1">
+                <label for="nomeUsuario">Digite o seu nome*: </label>
+                <input required id="nomeUsuario" placeholder="Ex: Daniel LaRusso" type="text">    
+            </div>
+            <div class="inputLabel1">
+                <label for="email">Digite o seu email*: </label>
+                <input required id="email" placeholder="Ex: Daniplay19@gmail.com" type="email">    
+            </div>
+            <div class="inputLabel1">
+                <label for="senha">Digite sua senha*: </label>
+                <input required id="senha" placeholder="Ex: pass3765yol" type="password">    
+            </div>
+            <div class="inputLabel1">
+                <label for="senha">Confirme sua senha*: </label>
+                <input required id="senha" type="password">    
+            </div>
+            <div class="inputLabel1">
+                <label for="idade">Digite sua idade*: </label>
+                <input min="8" max="200" required id="idade" step="1" placeholder="Ex: 69" type="number">    
+            </div>
+
+            <div id="labelButton" class="inputLabel1">
+                <button type="submit">Cadastrar</button>  
+                <button type="reset">Resetar</button>  
+            </div>
+            </form>
+        </div>
+            
+    </main>
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0%
+}
+
+body{
+    background-color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header, footer{
+    width: 100%;
+    background-color :goldenrod;
+    /*margin/padding como funciona?*/
+    /*padding = 1 valor = todos os lados*/
+    /*padding = 2 valores = y (topo, embaixo), x(esquerda, direita)*/
+    /*padding = 4 valores = topo, direito, embaixo, esquerda*/
+    padding: 20px 0px;
+    text-align: center;
+}
+
+h2{
+    margin: 0px 22px;
+}
+
+main{
+    width: 80%;
+    background-color:blueviolet;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+} 
+div{
+    margin: 10px 0px;
+}
+.Podcast{
+    margin: 20px;
+    text-decoration: none;
+    background-color:rgb(rgb(128, 68, 24));
+    color:rgb( rgb(44, 85, 44));
+    padding: 10px;
+    box-shadow: 6px 6px rgb(0, 0, 0)
+}

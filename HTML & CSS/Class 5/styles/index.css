@@ -1,0 +1,19 @@
+#banner{
+    width: 80%;
+    height: 450px;
+    border-radius: 10px;
+    background-image: url(../images/banner.jpg);
+    font-size:xx-large;
+    display: flex;
+    justify-content: center;
+    background-position: top;
+}
+
+#bannerTexto{
+    width: 700px;
+    height: 150px;
+    padding: 10px;
+    background-color: rgb(1, 234, 255);
+    color:rgb(170, 0, 255);
+    border-radius: 10px;
+}

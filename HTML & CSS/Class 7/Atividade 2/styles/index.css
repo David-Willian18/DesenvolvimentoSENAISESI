@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+table{
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+     /* border-collapse: collapse; */
+}
+
+th{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 14px;
+}
+
+.tLibertadores{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 14px;
+    color: #003366;
+    font-weight: bold;
+}
+
+.cinza{
+    background-color: rgb(224, 224, 224);
+}
+
+.time{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 130px;
+    font-weight: bold;
+}
+
+.pLibertadores{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 14px;
+    color: #1398BE;
+    font-weight: bold;
+}
+
+.sul{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 14px;
+    color: #DE9800;
+    font-weight: bold;
+}
+
+.nada{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 14px;
+    color: #CCCCCC;
+    font-weight: bold;
+}
+
+.rebaixados{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 14px;
+    color: #C91B04;
+    font-weight: bold;
+}

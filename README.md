@@ -1,2 +1,2 @@
-# DesenvolvimentoSENAISESI
-Repositório para arquivos de sala
+# Desenvolvimento_de_Sitemas-SENAI
+ Repositório para materiais didáticos

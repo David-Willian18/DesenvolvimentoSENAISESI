@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+ 
+@keyframes identifier {
+    
+}
+
+@font-face {
+    font-family: GranTurismo;
+    src: url(../GT/GranTurismoFonts/tokyo_3/Tokyo.ttf);
+}
+
+@font-face{
+    font-family: GranTurismo2;
+    src: url(../GT/GranTurismoFonts/Helvetica\ 97\ Black\ Condensed\ Oblique/GranT.ttf);
+}
+
+:root{
+    --fontPrimaria: GranTurismo;
+    --fontSecundaria: GranTurismo2;
+}
+
+body{
+    background-color: rgb(56, 56, 56);
+}
+
+#banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/Gran\ Turismo/Banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+header {
+    width: 80%;
+    padding: 10px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.199);
+    font-family: var(--fontPrimaria);
+    justify-content: center;
+    display: flex;
+    gap: 200px;
+   
+}
+
+a{
+  text-decoration: none; color: white; 
+}
+
+.noticias{
+    font-family: var(--fontSecundaria);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    animation: identifier ;
+}
+
+.noticias div{
+    margin: 30px;
+    width: 520px;
+    height: 560px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    justify-items:baseline;
+    row-gap: 20px;
+    border-radius: 20px;
+}
+
+
+#ayrton{
+    background-image: url(../img/Gran\ Turismo/sennagt.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 830px 590px;
+}
+
+#ranking{
+    background-image: url(../img/Gran\ Turismo/gt1.jpg);
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-size: 580px 590px;
+}
+
+#Filme{
+    background-image: url(../img/Gran\ Turismo/gtr.avif);
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-size: 580px 600px;
+}
+
+#Online{
+    background-image: url(../img/Gran\ Turismo/gt6.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px 600px;
+    display: flex;
+    background-position: center;
+}
